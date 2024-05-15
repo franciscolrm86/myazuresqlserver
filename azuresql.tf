@@ -1,15 +1,15 @@
-resource "azurerm_resource_group" "example" {
+resource "azurerm_resource_group" "francisco_sql" {
   name     = "database-rg"
-  location = "West Europe"
+  location = "Canada Central"
 }
 
-resource "azurerm_mssql_server" "example" {
-  name                         = "mssqlserver"
-  resource_group_name          = azurerm_resource_group.example.name
-  location                     = azurerm_resource_group.example.location
+resource "azurerm_mssql_server" "francisco_sql" {
+  name                         = "mysqlserver"
+  resource_group_name          = azurerm_resource_group.francisco_sql.name
+  location                     = azurerm_resource_group.francisco_sql.location
   version                      = "12.0"
-  administrator_login          = "missadministrator"
-  administrator_login_password = "thisIsKat11"
+  administrator_login          = "francisco_admin"
+  administrator_login_password = "Monica,127"
   minimum_tls_version          = "1.2"
 
   azuread_administrator {
