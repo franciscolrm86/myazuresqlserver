@@ -13,6 +13,6 @@ variable "tenant_id"{
 variable "administrator_login"{
   type=string
 }
-variables "administrator_login_password"
+variables "administrator_login_password"{
   type=string
 }
