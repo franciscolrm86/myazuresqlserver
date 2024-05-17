@@ -1,5 +1,5 @@
 name="francisco_sql"
-location="West Europe"
+location="Canada Central"
 mysqlname="mssqlserver"
 resourceversion="12.0"
 minimum_tls_version="1.2"
