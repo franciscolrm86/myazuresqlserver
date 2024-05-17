@@ -1,4 +1,4 @@
-name="database-rg"
+name="francisco_sql"
 location="West Europe"
 mysqlname="mssqlserver"
 resourceversion="12.0"
